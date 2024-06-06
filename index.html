@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mohammad's Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        body {
+            color: rgb(148, 3, 3); 
+        }
+        header nav ul li a {
+            color: red; 
+        }
+        h1 {
+            color: darkblue; 
+        }
+        h2 {
+            color: #14e90d; 
+        }
+        h3 {
+            color: #061dec; 
+        }
+        ul p {
+            color: purple; 
+        }
+
+        /* Media query for changing background color */
+        @media (min-width: 1000px) {
+            body {
+                background-color: gold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies and Interests</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="spots.html">NYC Spots</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to my Webpage!</h1>
+        <div>
+            <p>Hello! My name is Mohammad Ikbal. I am excited to share some interesting things about me.</p>
+            <section>
+                <h2>About Me:</h2>
+                <ul>
+                    <p>Place of Origin: Bangladesh</p>
+                    <p>Age: 22</p>
+                    <p>I have a younger brother. We like to play video games with each other.</p>
+                    <p>I am not an outdoor person.</p>
+                </ul>
+            </section>
+            <form>
+                <input type="button" onclick="alert('Hi')" value="Click me">
+            </form>
+            <h3>Click Here to Learn More About Me:</h3>
+            <a href="hobbies.html">Hobbies and Interests</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="spots.html">NYC Spots</a>
+        </div>
+    </main>
+    <footer>
+        <p>When the browser is more than 1000px, the background color will be gold.</p>
+        <p>When the browser width is less than 1000px, the background will change to a rainbow effect.</p>
+    </footer>
+</body>
+</html>

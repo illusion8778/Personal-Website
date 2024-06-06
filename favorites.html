@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - Mohammad's Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+         @media (min-width: 1000px) {
+            body {
+                font-size: 15px;
+                background-color: rgb(73, 73, 211);
+            }
+        }
+        /* Media Query with a maximum width of 900px */
+        @media (max-width: 700px) {
+            header {
+                padding: 10px 0;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+            main {
+                padding: 20px;
+                color: red;
+            }
+            footer {
+                padding: 20px 0;
+                color : white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies and Interests</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="spots.html">NYC Spots</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My Favorites:</h1>
+
+            <ul>
+                <p><strong style="color: red;">My favorite subject is Math</strong></p>
+                <p><strong style=color:red;>My favorite food is beef</p>
+                <p><strong style=color:red;>My favorite color is red</p>
+                <p><strong style=color:red;>My favorite book is the Harry Potter series</p>
+            </ul>
+            
+            <form>
+                <input type="button" onclick="alert('My least favorite subject is English')" value="Least Favorite">
+            </form>
+            <h3>Click Here to Learn More About Me:</h3>
+            <a href="hobbies.html">Hobbies and Interests</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="spots.html">NYC Spots</a>
+    </main>
+    <footer>
+    <p>When the viewport width is more than 1000px, the background color will be blue</p>
+    <p>The media query optimizes the website's layout with a maximum width of 700px</p>
+    </footer>
+</body>
+</html>
